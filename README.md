@@ -6,6 +6,22 @@
 > 以前做Web App开发时,总是由后台控制返回一个ModelAndView（即模板页+数据），模板定义好了需要什么数据，然后将数据在模板页中渲染出来生成一个页面html传给前端。
 > 如今前后端分离，后台仅提供REST API，前端通过ajax请求获得json数据，并在当前页面渲染出来，路由跳转也由前端控制(vue-router).
 
+## 0 技术栈
+
+> 目前已经使用的技术：
+
+| 类别 | 技术 |
+| ------ | ------ |
+| 前端 | Vue.js |
+| ajax | axios |
+| 前端 | Vue-Router |
+| 后台 | Maven |
+| 后台 | SpringBoot |
+|持久化层 | MyBatis |
+| 数据库 | MySql |
+| 前端开发工具 | VS Code |
+| 后台开发工具 | IntelliJ Idea |
+
 ## 1 搭建前端服务器
 
 1. 下载安装node.js, cnpm等
